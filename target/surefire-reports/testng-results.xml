@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="gmail function test suite" duration-ms="123997" started-at="2019-02-24T16:58:05Z" finished-at="2019-02-24T17:00:09Z">
+    <groups>
+    </groups>
+    <test name="GmailTest" duration-ms="123997" started-at="2019-02-24T16:58:05Z" finished-at="2019-02-24T17:00:09Z">
+      <class name="com.epam.lab.GmailTest">
+        <test-method status="PASS" signature="initializer()[pri:0, instance:com.epam.lab.GmailTest@6f7fd0e6]" name="initializer" is-config="true" duration-ms="32562" started-at="2019-02-24T16:58:05Z" finished-at="2019-02-24T16:58:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializer -->
+        <test-method status="PASS" signature="initializer()[pri:0, instance:com.epam.lab.GmailTest@6f7fd0e6]" name="initializer" is-config="true" duration-ms="32828" started-at="2019-02-24T16:58:05Z" finished-at="2019-02-24T16:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializer -->
+        <test-method status="PASS" signature="initializer()[pri:0, instance:com.epam.lab.GmailTest@6f7fd0e6]" name="initializer" is-config="true" duration-ms="32252" started-at="2019-02-24T16:58:05Z" finished-at="2019-02-24T16:58:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializer -->
+        <test-method status="PASS" signature="testVariant2(java.lang.String, java.lang.String)[pri:0, instance:com.epam.lab.GmailTest@6f7fd0e6]" name="testVariant2" duration-ms="86680" started-at="2019-02-24T16:58:37Z" data-provider="loginData" finished-at="2019-02-24T17:00:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[epam.test.sprysa@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[die34nh2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVariant2 -->
+        <test-method status="FAIL" signature="testVariant2(java.lang.String, java.lang.String)[pri:0, instance:com.epam.lab.GmailTest@6f7fd0e6]" name="testVariant2" duration-ms="89163" started-at="2019-02-24T16:58:37Z" data-provider="loginData" finished-at="2019-02-24T17:00:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[epam.test.sprysa@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[die34nh2]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to no longer be visible: By.xpath: //tr[@role='tablist'] (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'BOGDAN-PC', ip: '192.168.0.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: com.epam.lab.GmailTest$1
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.20 (8e2b610813e16..., userDataDir: C:\Users\Bogdan\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58133}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: bb960552951c0b5d8f0adce5def423f5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to no longer be visible: By.xpath: //tr[@role='tablist'] (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'BOGDAN-PC', ip: '192.168.0.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: com.epam.lab.GmailTest$1
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.20 (8e2b610813e16..., userDataDir: C:\Users\Bogdan\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58133}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: bb960552951c0b5d8f0adce5def423f5
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at com.epam.lab.elements.HomePage.openDrafts(HomePage.java:35)
+at com.epam.lab.businessObjects.MessageBO.openDraftMessageAndSend(MessageBO.java:32)
+at com.epam.lab.GmailTest.testVariant2(GmailTest.java:51)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVariant2 -->
+        <test-method status="PASS" signature="testVariant2(java.lang.String, java.lang.String)[pri:0, instance:com.epam.lab.GmailTest@6f7fd0e6]" name="testVariant2" duration-ms="91085" started-at="2019-02-24T16:58:38Z" data-provider="loginData" finished-at="2019-02-24T17:00:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[epam.test.sprysa@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[die34nh2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVariant2 -->
+      </class> <!-- com.epam.lab.GmailTest -->
+    </test> <!-- GmailTest -->
+  </suite> <!-- gmail function test suite -->
+</testng-results>

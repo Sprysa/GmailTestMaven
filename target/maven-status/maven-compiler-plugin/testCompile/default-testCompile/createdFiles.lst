@@ -1,0 +1,9 @@
+com\epam\lab\GmailTest$1.class
+com\epam\lab\businessObjects\LoginBO.class
+com\epam\lab\elements\HomePage.class
+com\epam\lab\elements\MessageWindow.class
+com\epam\lab\drivers\DriverPool.class
+com\epam\lab\elements\LoginPage.class
+com\epam\lab\businessObjects\MessageBO.class
+com\epam\lab\elements\DraftPage.class
+com\epam\lab\GmailTest.class
